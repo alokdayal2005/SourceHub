@@ -1,0 +1,57 @@
+﻿@model MovieReview.Models.MovieReviews
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+<form class="form-horizontal">
+    <fieldset>
+        <legend>MovieReviews</legend>
+
+        <div class="form-group">
+            @Html.HiddenFor(model => model.Id)
+            @Html.LabelFor(model => model.ReviewerName)
+            <div class="form-control">
+                    @Html.EditorFor(model => model.ReviewerName)
+                    @Html.ValidationMessageFor(model => model.ReviewerName)
+                </div>
+            </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.ReviewerComments)
+
+            <div class="form-control">
+                @Html.EditorFor(model => model.ReviewerComments)
+                @Html.ValidationMessageFor(model => model.ReviewerComments)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ReviewerRating)
+
+            <div class="form-control">
+                @Html.EditorFor(model => model.ReviewerRating)
+                @Html.ValidationMessageFor(model => model.ReviewerRating)
+            </div>
+        </div>
+            
+        @Html.HiddenFor(model=>model.MovieId)
+          <p>
+              <br />
+                <input class="btn-primary" type="submit" value="Save" />
+            </p>
+</fieldset>
+    </form>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index", new { id=Model.MovieId})
+</div>
+
+@section Scripts {
+    
+}

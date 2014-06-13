@@ -1,0 +1,38 @@
+﻿@model MovieReview.Models.RegisterExternalLoginModel
+@{
+    ViewBag.Title = "Register";
+}
+
+<hgroup class="title">
+    <h1>@ViewBag.Title.</h1>
+    <h2>Associate your @ViewBag.ProviderDisplayName account.</h2>
+</hgroup>
+
+@using (Html.BeginForm("ExternalLoginConfirmation", "Account", new { ReturnUrl = ViewBag.ReturnUrl }))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Association Form</legend>
+        <p>
+            You've successfully authenticated with <strong>@ViewBag.ProviderDisplayName</strong>.
+            Please enter a user name for this site below and click the Confirm button to finish
+            logging in.
+        </p>
+        <div class="form-group">
+            @Html.LabelFor(m => m.UserName)
+            <div class="form-control">
+                @Html.TextBoxFor(m => m.UserName)
+                @Html.ValidationMessageFor(m => m.UserName)
+                @Html.HiddenFor(m => m.ExternalLoginData)
+            </div>
+        </div>
+
+        <input class="btn-primary" type="submit" value="Register" />
+    </fieldset>
+}
+
+@section Scripts {
+
+}

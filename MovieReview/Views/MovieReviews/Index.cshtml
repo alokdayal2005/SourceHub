@@ -1,0 +1,18 @@
+﻿@model MovieReview.Models.Movie
+
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Review for @Model.MovieName</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create", new { movieId=Model.Id})
+</p>
+
+@Html.Partial("_Reviews",Model.reviews)
+
+<div>
+    @Html.ActionLink("Back to List", "Index","Movies")
+</div>

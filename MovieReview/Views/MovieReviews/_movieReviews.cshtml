@@ -1,0 +1,10 @@
+﻿@model MovieReview.Models.MovieReviews
+
+
+<div>
+    <h4>@Model.MovieName</h4>
+    <span>@Model.ReviewerName</span>
+    <span>@Model.ReviewerComments</span>
+    <span>@Model.ReviewerRating</span>
+    <span>@Html.ActionLink("Edit","Edit",new{Id=Model.Id})</span>
+</div>
