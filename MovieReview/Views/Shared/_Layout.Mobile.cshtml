@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title - My ASP.NET MVC Application</title>
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+    <link href="~/Content/jquery.mobile-1.4.2.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-2.1.0.min.js"></script>
+    
+    <link href="~/Content/BootStrap-theme-movie.css" rel="stylesheet" />
+    <script>
+        $(document).bind("mobileinit", function() {
+            $.mobile.ajaxEnabled = false;
+        });
+    </script>
+    <script src="~/Scripts/jquery.mobile-1.4.2.js"></script>
+    @*@Styles.Render("~/Content/css")*@
+    @Scripts.Render("~/bundles/modernizr")
+    
+   
+</head>
+
+<div data-role="page">
+    <div class="container">
+        <div class="row">
+            <div class="navbar navbar-default">
+                <div  data-role="header" data-theme="b">
+                    <ul class="nav navbar-nav">
+                        <li><span class="navbar-brand">Select One</span></li>
+
+                    </ul>
+                </div>
+                <div class="navbar-collapse navbar">
+                    <div data-role="navbar">
+                        <ul>
+                            <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                           <li>@Html.ActionLink("Movies", "Index", "Movies")</li>
+                           
+                        </ul>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li>@Html.Partial("_LoginPartial")</li>
+                        
+                    </ul>
+                </div>
+                @RenderSection("featured", required: false)
+
+            </div>
+
+        </div>
+        <div>
+            <section class="main-content" data-role="content">
+                @RenderBody()
+            </section>
+        </div>
+        <footer>
+            @*<div class="panel-footer">
+                    Best Review
+                    @Html.Action("bestReviews", "MovieReviews")
+                </div>*@
+        </footer>
+    </div>
+    @Scripts.Render("~/bundles/movies")
+    @RenderSection("scripts", required: false)
+</div>
+</html>

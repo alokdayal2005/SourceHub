@@ -1,0 +1,17 @@
+﻿@model IPagedList<MovieReview.Models.MovieViewModel>
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div>
+    <form method="get" action="@Url.Action("Index")" data-movie-ajax="true" data-movie-target="#movieDiv">
+        <input type="search" class="form-control has-success" name="SearchQuery">
+        <br />
+       
+        <input type="submit" data-icon="search" data-role="button" data-theme="b" class="btn-primary" value="Search by Movie Name" />
+    </form>
+</div>
+
+
+
+@Html.Partial("_movies",Model)

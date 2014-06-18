@@ -1,0 +1,26 @@
+﻿@model IPagedList<MovieReview.Models.MovieViewModel>
+
+
+<div id="movieDiv">
+
+    <div class="pagedList" data-movie-target="#movieDiv">
+        @Html.PagedListPager(Model, page => Url.Action("Index", new { page }),
+            PagedListRenderOptions.MinimalWithPageCountText)
+    </div>
+    <div data-role="collapsible-set">
+        @foreach (var item in Model)
+        {
+            <div data-role="collapsible">
+                <h4>Name - @item.MovieName</h4><br />
+                <h5>Director - @item.DirectorName</h5>
+                <h5>Release Year - @item.ReleaseYear</h5>
+                <h5>No Of Reviews - @item.NoOfReviews</h5>
+                <hr />
+            </div>
+        }
+    </div>
+    <div class="pagedList" data-movie-target="#movieDiv">
+        @Html.PagedListPager(Model, page => Url.Action("Index", new { page }),
+        PagedListRenderOptions.MinimalWithPageCountText)
+    </div>
+</div>

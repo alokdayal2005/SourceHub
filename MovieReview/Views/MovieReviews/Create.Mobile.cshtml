@@ -1,0 +1,54 @@
+﻿@model MovieReview.Models.MovieReviews
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+<form class="form-horizontal">
+    <fieldset>
+        
+        <div class="form-group" data-role="feildcontain">
+            @Html.LabelFor(model => model.ReviewerName)
+            
+            <div>
+                @Html.EditorFor(model => model.ReviewerName)
+                @Html.ValidationMessageFor(model => model.ReviewerName)
+            </div>
+        </div>
+        <div class="form-group" data-role="feildcontain">
+            @Html.LabelFor(model => model.ReviewerComments)
+
+            <div>
+                @Html.EditorFor(model => model.ReviewerComments)
+                @Html.ValidationMessageFor(model => model.ReviewerComments)
+            </div>
+        </div>
+        <div class="form-group" data-role="feildcontain">
+            @Html.LabelFor(model => model.ReviewerRating)
+
+            <div>
+                @Html.EditorFor(model => model.ReviewerRating)
+                @Html.ValidationMessageFor(model => model.ReviewerRating)
+            </div>
+        </div>
+        
+
+        <p>
+            <input data-role="button" data-theme="b" class="btn-primary" type="submit" value="Create" />
+        </p>
+    </fieldset>
+    </form>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index","Movies")
+</div>
+
+@section Scripts {
+    
+}

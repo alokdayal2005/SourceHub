@@ -1,0 +1,42 @@
+﻿@model IEnumerable<MovieReview.Models.Movie>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @if (User.IsInRole("Admin")) { 
+    @Html.ActionLink("Create New", "Create")
+    }
+</p>
+<div >
+    <div>
+        @Html.DisplayNameFor(model => model.MovieName) |
+   
+            @Html.DisplayNameFor(model => model.DirectorName) |
+   
+        @Html.DisplayNameFor(model => model.ReleaseYear) 
+    </div>
+    
+
+    @foreach (var item in Model)
+{
+    <div data-role="collapsible-set">
+        @Html.DisplayFor(modelItem => item.MovieName) |
+
+        @Html.DisplayFor(modelItem => item.DirectorName) |
+
+        @Html.DisplayFor(modelItem => item.ReleaseYear) 
+
+        <div>
+            @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+            @Html.ActionLink("Reviews", "Index", "MovieReviews", new { id = item.Id }, null) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+        </div>
+    </div>
+}
+
+</div>
