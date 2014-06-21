@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="WebTest1" Id="479a9f81-7af6-48e8-8cae-53aae1706919" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="WebTest1.e392789f-c697-4e70-bca7-4ee97cc9fbc2.rec.webtestresult" ResultsLocale="">
+  <Items>
+    <Request Method="GET" Guid="68b6e2d3-326a-44d9-8414-1080ead23f6a" Version="1.1" Url="http://localhost:1034/" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="cf76e340-6a51-4080-83c7-b9bb87f98145" Version="1.1" Url="http://themes.googleusercontent.com/static/fonts/lato/v7/nQhiC-wSiJx0pvEuJl8d8A.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://localhost:1034/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="4e90674e-60cc-4bc8-bec0-800486982b34" Version="1.1" Url="http://themes.googleusercontent.com/static/fonts/lato/v7/sBtfDPlEIwvKKU53nAG7AQ.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://localhost:1034/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="02a956bf-3646-4c8b-8bef-3843739399ed" Version="1.1" Url="http://themes.googleusercontent.com/static/fonts/lato/v7/bjaQ6jyWa8A2XFrSKceJyA.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://localhost:1034/" />
+          </Headers>
+        </Request>
+      </DependentRequests>
+    </Request>
+    <Request Method="GET" Guid="b6339d57-9e64-49cc-878e-053e13bc69f1" Version="1.1" Url="http://localhost:1034/Home/Contact" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="1786fc9a-330f-4dca-85bf-1de8eac83a6d" Version="1.1" Url="http://themes.googleusercontent.com/static/fonts/lato/v7/nQhiC-wSiJx0pvEuJl8d8A.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://localhost:1034/Home/Contact" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="4d617dac-3dd6-4da8-877c-f6d7341e0147" Version="1.1" Url="http://themes.googleusercontent.com/static/fonts/lato/v7/sBtfDPlEIwvKKU53nAG7AQ.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://localhost:1034/Home/Contact" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="c51c3ba2-c019-4840-ae94-d80d8914f49e" Version="1.1" Url="http://themes.googleusercontent.com/static/fonts/lato/v7/bjaQ6jyWa8A2XFrSKceJyA.eot" ThinkTime="3" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://localhost:1034/Home/Contact" />
+          </Headers>
+        </Request>
+      </DependentRequests>
+      <Headers>
+        <Header Name="Referer" Value="http://localhost:1034/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="bb102e8f-477c-405e-8f07-25ec7f005af7" Version="1.1" Url="http://localhost:1034/Movies" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="63d99522-cc05-4ab1-acac-ef4da971be46" Version="1.1" Url="http://themes.googleusercontent.com/static/fonts/lato/v7/nQhiC-wSiJx0pvEuJl8d8A.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://localhost:1034/Movies" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="b934b879-612b-4b3b-bbdf-afc01286bd92" Version="1.1" Url="http://themes.googleusercontent.com/static/fonts/lato/v7/sBtfDPlEIwvKKU53nAG7AQ.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://localhost:1034/Movies" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="89b44b12-d5d7-4075-a7e0-2c7175f3d301" Version="1.1" Url="http://themes.googleusercontent.com/static/fonts/lato/v7/bjaQ6jyWa8A2XFrSKceJyA.eot" ThinkTime="2" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://localhost:1034/Movies" />
+          </Headers>
+        </Request>
+      </DependentRequests>
+      <Headers>
+        <Header Name="Referer" Value="http://localhost:1034/Home/Contact" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="5e862040-4679-4926-ad3a-740bf3dd42e0" Version="1.1" Url="http://localhost:1034/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="988bda19-76ca-439c-9f3d-403513adce4b" Version="1.1" Url="http://themes.googleusercontent.com/static/fonts/lato/v7/nQhiC-wSiJx0pvEuJl8d8A.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://localhost:1034/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="e565d263-4b72-4e05-bbab-326a9188d9fd" Version="1.1" Url="http://themes.googleusercontent.com/static/fonts/lato/v7/sBtfDPlEIwvKKU53nAG7AQ.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://localhost:1034/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="0b396e2f-ecf9-4f32-9015-89c90d0e1502" Version="1.1" Url="http://themes.googleusercontent.com/static/fonts/lato/v7/bjaQ6jyWa8A2XFrSKceJyA.eot" ThinkTime="3" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://localhost:1034/" />
+          </Headers>
+        </Request>
+      </DependentRequests>
+      <Headers>
+        <Header Name="Referer" Value="http://localhost:1034/Movies" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="1cd0d3ab-0b97-4a95-aed3-ec6dccf4d2e2" Version="1.1" Url="http://localhost:1034/Account/Login" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="eeb95677-8f2e-4f07-a46c-2c4baa5bd0f6" Version="1.1" Url="http://themes.googleusercontent.com/static/fonts/lato/v7/nQhiC-wSiJx0pvEuJl8d8A.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://localhost:1034/Account/Login" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="91247880-1c58-4c94-ac5f-22aed87d6373" Version="1.1" Url="http://themes.googleusercontent.com/static/fonts/lato/v7/sBtfDPlEIwvKKU53nAG7AQ.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://localhost:1034/Account/Login" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="a748c467-3d58-4a43-9026-21b4863dc461" Version="1.1" Url="http://themes.googleusercontent.com/static/fonts/lato/v7/bjaQ6jyWa8A2XFrSKceJyA.eot" ThinkTime="5" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://localhost:1034/Account/Login" />
+          </Headers>
+        </Request>
+      </DependentRequests>
+      <Headers>
+        <Header Name="Referer" Value="http://localhost:1034/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="f990ac8a-bc37-4450-a8e4-87de82c232c1" Version="1.1" Url="http://localhost:1034/Movies" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="d322dd8d-9916-42fa-b8d5-6f4065155bf4" Version="1.1" Url="http://themes.googleusercontent.com/static/fonts/lato/v7/nQhiC-wSiJx0pvEuJl8d8A.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://localhost:1034/Movies" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="633adcbf-8092-4c36-b9b5-d1882129f651" Version="1.1" Url="http://themes.googleusercontent.com/static/fonts/lato/v7/sBtfDPlEIwvKKU53nAG7AQ.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://localhost:1034/Movies" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="8aa547f2-2191-4154-bb1d-7ec0720d09f5" Version="1.1" Url="http://themes.googleusercontent.com/static/fonts/lato/v7/bjaQ6jyWa8A2XFrSKceJyA.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://localhost:1034/Movies" />
+          </Headers>
+        </Request>
+      </DependentRequests>
+      <Headers>
+        <Header Name="Referer" Value="http://localhost:1034/Account/Login" />
+      </Headers>
+    </Request>
+  </Items>
+  <ValidationRules>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidateResponseUrl, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response URL" Description="Validates that the response URL after redirects are followed is the same as the recorded response URL.  QueryString parameters are ignored." Level="Low" ExectuionOrder="BeforeDependents" />
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleResponseTimeGoal, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response Time Goal" Description="Validates that the response time for the request is less than or equal to the response time goal as specified on the request.  Response time goals of zero will be ignored." Level="Low" ExectuionOrder="AfterDependents">
+      <RuleParameters>
+        <RuleParameter Name="Tolerance" Value="0" />
+      </RuleParameters>
+    </ValidationRule>
+  </ValidationRules>
+</WebTest>
